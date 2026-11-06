@@ -1,0 +1,6 @@
+# Mesa 3.x API is used (mesa.Agent, mesa.Model, AgentSet.do, DataCollector).
+# After testing on your computer, record exact versions using pip freeze.
+mesa>=3.0,<4.0
+pandas>=2.2,<3.0
+matplotlib>=3.8,<4.0
+pytest>=8.0,<10.0

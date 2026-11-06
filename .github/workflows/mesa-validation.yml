@@ -1,0 +1,30 @@
+name: Verify Mesa prototype
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out project
+        uses: actions/checkout@v4
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install requirements
+        run: python -m pip install -r requirements.txt
+      - name: Confirm real Mesa is available
+        run: python -c "import mesa; print('Mesa version:', mesa.__version__)"
+      - name: Run tests
+        run: python -m pytest -q
+      - name: Run recency versus hybrid comparison
+        run: python run.py
+      - name: Upload computed outputs
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mesa-comparison-outputs
+          path: outputs/
