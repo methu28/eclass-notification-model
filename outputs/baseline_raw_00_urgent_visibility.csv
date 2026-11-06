@@ -1,0 +1,8 @@
+step,elapsed_hours,policy,urgent_total,urgent_top5_count,urgent_top5_share,average_urgent_rank,recent_nonurgent_top5,initial_recent_nonurgent_top5,top_five_ids
+0,0,recency,4,0,0.0,17.5,5,5,N09|N10|N11|N12|N13
+1,6,recency,5,0,0.0,16.2,5,5,N09|N10|N11|N12|N13
+2,12,recency,6,0,0.0,15.666666666666666,5,5,N09|N10|N11|N12|N13
+3,18,recency,7,0,0.0,15.571428571428571,4,5,N09|N10|N11|N12|N13
+4,24,recency,8,0,0.0,15.625,0,5,N09|N10|N11|N12|N13
+5,30,recency,8,0,0.0,15.625,0,5,N09|N10|N11|N12|N13
+6,36,recency,8,0,0.0,15.625,0,5,N09|N10|N11|N12|N13

@@ -1,0 +1,8 @@
+step,elapsed_hours,hybrid_urgent_top5,hybrid_initial_recent_nonurgent_top5,recency_urgent_top5,recency_initial_recent_nonurgent_top5,urgent_visibility_difference
+0,0,2,3,0,5,2
+1,6,2,3,0,5,2
+2,12,2,3,0,5,2
+3,18,2,3,0,5,2
+4,24,2,3,0,5,2
+5,30,2,3,0,5,2
+6,36,2,3,0,5,2

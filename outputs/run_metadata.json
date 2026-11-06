@@ -1,0 +1,15 @@
+{
+  "mesa_version": "3.5.2",
+  "model_type": "Mesa agent-based selective representation",
+  "input_file": "C:\\Users\\methu\\eclass-notification-model\\data\\notifications.csv",
+  "initial_notifications": 20,
+  "initial_urgent": 4,
+  "steps": 6,
+  "hours_per_step": 6,
+  "hybrid_reserved_urgent_positions": 2,
+  "top_visible_positions": 5,
+  "urgency_threshold_hours": 72,
+  "seed": 42,
+  "same_input_for_both_conditions": true,
+  "interpretation_limit": "Synthetic model outputs; not evidence of eClass internal ordering or student behavior."
+}
