@@ -1,7 +1,6 @@
 # eClass Notification Visibility: DEL02 Mesa Prototype
 
-**Status:** Development prototype. Genuine Mesa execution is checked by GitHub Actions; the complete unchanged source example still needs to be retrieved and run before the DEL02 submission. Do not create the final DEL02 tag/release until validation and partner review are complete.
-
+**Status:** Development prototype. Genuine Mesa execution 
 ## Research question and scope
 
 This is a selective computational representation of York University's eClass notification dropdown. We compare **hypothetical** ordering rules, not a verified eClass algorithm. We measure *opportunities for visibility* in the first five positions, **not** student attention or actual reading.
@@ -96,6 +95,4 @@ See `docs/model_design.md`, `docs/validation_status.md`, and `docs/del02_submiss
 
 ## Collaboration, AI assistance, and submission
 
-The source code and synthetic dataset were created with AI assistance. Both students should review, understand, test and meaningfully contribute to the repository. Disclose AI use accurately in individual Accountability Records; GitHub commit attribution alone does not establish original authorship.
-
-After passing genuine Mesa tests, confirming the unchanged Mesa example runs, committing outputs and documenting findings, create the prescribed **annotated** `DEL02` tag (message: `DEL02.2 - Submission - Initial Computational Prototype`) and GitHub release titled `DEL02 Release`. Do not tag an unverified prototype as the final submission.
+The source code and synthetic dataset were created with AI assistance. 
