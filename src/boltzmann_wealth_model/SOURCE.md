@@ -6,6 +6,6 @@
 - Git commit: `fe24c24ee34762de2ff85d487af14bfb5cd1dbb2`
 - Ref requested: `main`
 - Retrieved (UTC): 2026-11-06T21:46:08.170866+00:00
-- Original source directory copied unchanged into `boltzmann_wealth_model/`.
-- Upstream license copied to `UPSTREAM_LICENSE` when available.
+- Preserved local directory: `src/boltzmann_wealth_model/` (all six upstream example files unchanged).
+- License: Apache License 2.0; the upstream license is preserved alongside this file as `UPSTREAM_LICENSE`.
 - Before submission: verify the original example's run command against its own README.

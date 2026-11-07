@@ -3,9 +3,8 @@
 Run on an internet-connected computer with git installed:
     python scripts/fetch_source_example.py
 
-This is intentionally not executed in the provided archive because the build
-sandbox cannot reach GitHub. Never claim the example has been included until
-this script succeeds and you commit its output to the shared repository.
+The example is already preserved in this repository. This retrieval helper
+refuses to overwrite an existing destination.
 """
 from __future__ import annotations
 
@@ -35,7 +34,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--ref", default="main", help="Upstream branch or tag; default main")
     args = parser.parse_args()
-    destination = ROOT / "src" / "mesa_source" / "boltzmann_wealth_model"
+    destination = ROOT / "src" / "boltzmann_wealth_model"
     if destination.exists():
         raise SystemExit(f"Source folder already exists: {destination}. Refusing to overwrite.")
     with tempfile.TemporaryDirectory(prefix="mesa_source_") as temp:
@@ -49,8 +48,8 @@ def main():
         shutil.copytree(src, destination)  # byte-for-byte copy of all example files
         upstream_license = checkout / "LICENSE"
         if upstream_license.exists():
-            shutil.copy2(upstream_license, ROOT / "src" / "mesa_source" / "UPSTREAM_LICENSE")
-        source_note = ROOT / "src" / "mesa_source" / "SOURCE.md"
+            shutil.copy2(upstream_license, destination / "UPSTREAM_LICENSE")
+        source_note = destination / "SOURCE.md"
         source_note.write_text(
             "# Mesa source example provenance\n\n"
             f"- Project: Mesa, Boltzmann Wealth Model example\n"
@@ -59,8 +58,8 @@ def main():
             f"- Git commit: `{commit}`\n"
             f"- Ref requested: `{args.ref}`\n"
             f"- Retrieved (UTC): {dt.datetime.now(dt.timezone.utc).isoformat()}\n"
-            "- Original source directory copied unchanged into `boltzmann_wealth_model/`.\n"
-            "- Upstream license copied to `UPSTREAM_LICENSE` when available.\n"
+            "- Original source directory copied unchanged into `src/boltzmann_wealth_model/`.\n"
+            "- License: Apache License 2.0; upstream license copied to `UPSTREAM_LICENSE` when available.\n"
             "- Before submission: verify the original example's run command against its own README.\n",
             encoding="utf-8",
         )

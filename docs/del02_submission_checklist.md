@@ -7,7 +7,7 @@
 - [x] Preserve the complete unchanged upstream Mesa example; all six files matched the recorded upstream commit.
 - [x] Verify the original model step and Solara startup with `mesa[rec]==3.5.2`.
 - [ ] Exercise the original visualization controls in a browser before final submission.
-- [x] Confirm `src/mesa_source/SOURCE.md` contains the actual fetched commit, retrieval date, path, and license reference.
+- [x] Confirm `src/boltzmann_wealth_model/SOURCE.md` contains the actual fetched commit, retrieval date, path, and license reference.
 - [x] Source example, attribution, and default generated output files are tracked at the audited commit.
 - [ ] Review local fixes before committing; do not replace existing outputs without reviewing regenerated results.
 - [x] Audit reviewed all three tracked plots and reconciled CSV values; default results were reproduced.

@@ -78,16 +78,16 @@ The primary outcome is the number of urgent items in the first five positions. S
 
 ## Original Mesa example required by DEL02
 
-The complete unchanged Boltzmann Wealth example is preserved in `src/mesa_source/boltzmann_wealth_model/`. `src/mesa_source/SOURCE.md` records upstream commit `fe24c24ee34762de2ff85d487af14bfb5cd1dbb2` and its retrieval timestamp; `UPSTREAM_LICENSE` contains Apache License 2.0. All six example files were checked against that upstream commit during the audit.
+The complete unchanged Boltzmann Wealth example is preserved in `src/boltzmann_wealth_model/`. `src/boltzmann_wealth_model/SOURCE.md` records upstream commit `fe24c24ee34762de2ff85d487af14bfb5cd1dbb2` and its retrieval timestamp; `UPSTREAM_LICENSE` contains Apache License 2.0. All six example files were checked against that upstream commit during the audit.
 
 From the repository root in PowerShell, install the preserved example's recommended extras and start its visualization:
 ```powershell
 .\.venv\Scripts\python.exe -m pip install "mesa[rec]==3.5.2"
-Set-Location src/mesa_source/boltzmann_wealth_model
-..\..\..\.venv\Scripts\solara.exe run app.py
+Set-Location src/boltzmann_wealth_model
+..\..\.venv\Scripts\solara.exe run app.py
 ```
 
-With uv, the equivalent installation is `uv pip install --python .venv\Scripts\python.exe "mesa[rec]==3.5.2"`. On macOS/Linux, install using `.venv/bin/python -m pip install "mesa[rec]==3.5.2"`, then run `../../../.venv/bin/solara run app.py` from the example directory. Open the displayed local URL; stop the server with Ctrl+C. The example imports modules from installed Mesa as well as the preserved directory. Its optional Streamlit alternative has additional dependencies described in its unchanged `Readme.md` and was not verified in this audit.
+With uv, the equivalent installation is `uv pip install --python .venv\Scripts\python.exe "mesa[rec]==3.5.2"`. On macOS/Linux, install using `.venv/bin/python -m pip install "mesa[rec]==3.5.2"`, then run `../../.venv/bin/solara run app.py` from the example directory. Open the displayed local URL; stop the server with Ctrl+C. The example imports modules from installed Mesa as well as the preserved directory. Its optional Streamlit alternative has additional dependencies described in its unchanged `Readme.md` and was not verified in this audit.
 
 `scripts/fetch_source_example.py` is retained for provenance/retrieval purposes. It is not a setup step for this checkout and deliberately refuses to overwrite the existing example. Do not rerun it expecting an update.
 

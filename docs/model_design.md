@@ -32,7 +32,7 @@ The referent is York University's student-facing eClass bell-icon dropdown. The 
 ## Adaptation from Mesa example
 The Boltzmann Wealth example provides a technical pattern for a Model managing multiple Agent entities, repeated activation, and data collection. This adaptation replaces money exchange with time-dependent notification states and centrally assigned rankings. It is **not** an analogy between wealth and message visibility.
 
-The complete unchanged original example is included in `src/mesa_source/boltzmann_wealth_model/`, with commit/date provenance in `src/mesa_source/SOURCE.md` and Apache 2.0 license in `UPSTREAM_LICENSE`. The audit verified all six files against the recorded upstream commit, a model step, and Solara startup using Mesa 3.5.2 with recommended extras. Browser controls and the optional Streamlit interface were not verified. See the root README for installation and working-directory instructions.
+The complete unchanged original example is included in `src/boltzmann_wealth_model/`, with commit/date provenance in `src/boltzmann_wealth_model/SOURCE.md` and Apache 2.0 license in `UPSTREAM_LICENSE`. The audit verified all six files against the recorded upstream commit, a model step, and Solara startup using Mesa 3.5.2 with recommended extras. Browser controls and the optional Streamlit interface were not verified. See the root README for installation and working-directory instructions.
 
 ## Limitations
 No notification arrivals, dismissals, reader decisions, phone viewport measurements, or overdue alerts are modelled. The model cannot establish the actual eClass algorithm or what real students read. Recency rankings stay constant across steps without new arrivals; changes in hybrid ranking occur when deadlines become urgent.

@@ -50,7 +50,7 @@ Executed from the repository root:
 
 ## Preserved example and output audit
 
-All six files in `src/mesa_source/boltzmann_wealth_model/` matched the upstream Git blobs at the commit recorded in `SOURCE.md`. Provenance and the Apache 2.0 license are included. A 50-agent original model completed a step; its Solara app module loaded and server responded with HTTP 200 after installing recommended extras. Interactive browser controls and the optional Streamlit app were not exercised.
+All six files in `src/boltzmann_wealth_model/` matched the upstream Git blobs at the commit recorded in `SOURCE.md`. Provenance and the Apache 2.0 license are included. A 50-agent original model completed a step; its Solara app module loaded and server responded with HTTP 200 after installing recommended extras. Interactive browser controls and the optional Streamlit app were not exercised.
 
 The audit visually reviewed all three committed PNGs and reconciled all seven model snapshots against the 140 agent rows per condition. It independently reconstructed top-five membership and average urgent rank from the input CSV. Both policies use identical input/time/urgency trajectories. These are computational checks of one synthetic scenario, not validation against real eClass or students.
 
