@@ -1,3 +1,7 @@
-# Required original Mesa example not yet fetched
+# Preserved original Mesa example
 
-Run `python scripts/fetch_source_example.py` from the project root on a computer with Git and internet access. This downloads the complete, unchanged upstream Boltzmann Wealth example and generates `SOURCE.md` with commit/date provenance. See the project README for verification instructions. Do not submit the repository with only this placeholder.
+The complete Boltzmann Wealth example is already included in `boltzmann_wealth_model/`. Do not modify its files. `SOURCE.md` records the upstream commit and retrieval timestamp; `UPSTREAM_LICENSE` preserves the Apache 2.0 license.
+
+See the repository root README for verified installation and run commands using Mesa 3.5.2 with `mesa[rec]`. The example directory contains its unchanged upstream `Readme.md`. Model execution and Solara startup were verified; interactive controls and the optional Streamlit interface were not exercised.
+
+`scripts/fetch_source_example.py` is a retrieval helper, not a required setup step for this checkout. It refuses to overwrite the existing example.

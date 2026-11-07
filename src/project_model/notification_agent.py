@@ -18,9 +18,9 @@ class NotificationAgent(mesa.Agent):
         self.hours_until_deadline = record.deadline_hours_remaining
         self.initially_recent_nonurgent = (
             record.posted_hours_ago <= 24
-            and not is_urgent(record.deadline_hours_remaining)
+            and not is_urgent(record.deadline_hours_remaining, model.urgency_threshold_hours)
         )
-        self.urgent = is_urgent(self.hours_until_deadline)
+        self.urgent = is_urgent(self.hours_until_deadline, model.urgency_threshold_hours)
         self.rank = 0
         self.in_top_five = False
 

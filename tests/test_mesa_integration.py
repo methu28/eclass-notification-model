@@ -5,7 +5,7 @@ import pytest
 
 mesa = pytest.importorskip("mesa")
 
-from src.project_model.dataset import load_notifications
+from src.project_model.dataset import NotificationRecord, load_notifications
 from src.project_model.notification_agent import NotificationAgent
 from src.project_model.notification_model import NotificationModel
 
@@ -47,3 +47,38 @@ def test_repeated_mesa_run_is_deterministic():
     assert a.datacollector.get_model_vars_dataframe().equals(
         b.datacollector.get_model_vars_dataframe()
     )
+
+
+@pytest.mark.parametrize("policy", ["recency", "hybrid"])
+def test_24_hour_threshold_on_repository_dataset(policy):
+    model = NotificationModel(load_notifications(DATA), policy, urgency_threshold_hours=24)
+    assert model.urgent_total == 0
+    assert model.datacollector.get_model_vars_dataframe()["urgent_total"].tolist() == [0]
+    for _ in range(6):
+        model.step()
+    assert model.datacollector.get_model_vars_dataframe()["urgent_total"].tolist() == [0, 0, 0, 0, 1, 2, 3]
+
+
+@pytest.mark.parametrize("policy", ["recency", "hybrid"])
+def test_custom_threshold_boundaries_and_initial_recent_cohort(policy):
+    records = [
+        NotificationRecord("at_threshold", "quiz", 1, 24),
+        NotificationRecord("crossing", "quiz", 2, 30),
+        NotificationRecord("no_deadline", "announcement", 3, None),
+        NotificationRecord("outside_recency", "quiz", 25, 30),
+    ] + [NotificationRecord(f"filler_{i:02}", "announcement", 100 + i, None) for i in range(16)]
+    model = NotificationModel(records, policy, urgency_threshold_hours=24)
+    agents = {a.notification_id: a for a in model.agents}
+    assert {a.notification_id for a in model.agents if a.urgent} == {"at_threshold"}
+    assert {a.notification_id for a in model.agents if a.initially_recent_nonurgent} == {"crossing", "no_deadline"}
+    assert model.initial_recent_nonurgent_top5 == 2
+    model.step()
+    assert {a.notification_id for a in model.agents if a.urgent} == {"at_threshold", "crossing", "outside_recency"}
+    assert agents["crossing"].initially_recent_nonurgent
+    assert not agents["at_threshold"].initially_recent_nonurgent
+    assert model.initial_recent_nonurgent_top5 == 2
+    for _ in range(3):
+        model.step()
+    assert agents["at_threshold"].hours_until_deadline == 0
+    assert not agents["at_threshold"].urgent
+    assert agents["crossing"].initially_recent_nonurgent
