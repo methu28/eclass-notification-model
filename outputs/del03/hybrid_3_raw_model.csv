@@ -1,0 +1,8 @@
+step,elapsed_hours,policy,urgent_total,urgent_top5_count,urgent_top5_share,average_urgent_rank,recent_nonurgent_top5,initial_recent_nonurgent_top5,top_five_ids
+0,0,hybrid,4,3,0.75,6.5,2,2,N01|N02|N03|N09|N10
+1,6,hybrid,5,3,0.6,9.0,2,2,N05|N01|N02|N09|N10
+2,12,hybrid,6,3,0.5,10.333333333333334,2,2,N05|N06|N01|N09|N10
+3,18,hybrid,7,3,0.42857142857142855,11.0,2,2,N05|N06|N01|N09|N10
+4,24,hybrid,8,3,0.375,11.625,0,2,N05|N06|N01|N09|N10
+5,30,hybrid,8,3,0.375,11.625,0,2,N05|N06|N01|N09|N10
+6,36,hybrid,8,3,0.375,11.625,0,2,N05|N06|N01|N09|N10

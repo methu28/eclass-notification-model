@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080" role="img" aria-labelledby="title description">
+<title id="title">Figure 1. eClass notification visibility ecosystem</title>
+<desc id="description">Documented institutional and upstream context is separated from a synthetic Mesa experiment. The public redacted DEL01 interface derivative has been inspected; its exact capture date is unconfirmed. Actual York ordering and viewport capacity are unverified; student attention and action are outside the computational boundary.</desc>
+<defs>
+<marker id="context-arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4.5 L0 9 Z" fill="#7a8c98" /></marker>
+<marker id="model-arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#65448c" /></marker>
+</defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#172b3a} .context-flow{fill:none;stroke:#7a8c98;stroke-width:2.2;stroke-dasharray:7 5;marker-end:url(#context-arrow)} .model-flow{fill:none;stroke:#65448c;stroke-width:2.5;marker-end:url(#model-arrow)}</style>
+<rect width="1440" height="1080" fill="white" />
+
+<text x="32" y="51" font-size="34" font-weight="700" text-anchor="start" style="fill:#17344d">Figure 1. eClass notification visibility ecosystem</text>
+<text x="32" y="85" font-size="21" font-weight="400" text-anchor="start" style="fill:#506373">Documented context, uncertain deployment details, and a bounded hypothetical comparison</text>
+<g id="platform-context">
+<rect x="275" y="126" width="730" height="406" rx="16" fill="#f8fafc" stroke="#aebfcb" stroke-width="1.5" />
+<text x="300" y="159" font-size="25" font-weight="700" text-anchor="start" style="fill:#17344d">York eClass / Moodle</text>
+<text x="980" y="158" font-size="16" font-weight="700" text-anchor="end" style="fill:#17344d">DOCUMENTED CONTEXT  |  E1</text>
+<g id="governance">
+<rect x="300" y="181" width="680" height="97" rx="12" fill="#eaf2f8" stroke="#9db5c8" stroke-width="1.5" />
+<text x="320" y="209" font-size="22" font-weight="700" text-anchor="start" style="fill:#17344d">Preferences and governance</text>
+<text x="320" y="237" font-size="20" font-weight="400" text-anchor="start" style="fill:#172b3a">Delivery settings; subscriptions; administrative defaults</text>
+<text x="320" y="261" font-size="17" font-weight="400" text-anchor="start" style="fill:#506373">York settings: E2-E3  |  Upstream controls: E4</text>
+</g>
+<path d="M 435 278 L 435 314" class="context-flow" />
+<g id="notification-processing">
+<rect x="300" y="315" width="270" height="132" rx="12" fill="white" stroke="#96afc2" stroke-width="1.5" />
+<text x="318" y="340" font-size="15" font-weight="700" text-anchor="start" style="fill:#506373">INFERRED  |  E1, E4</text>
+<text x="318" y="371" font-size="20" font-weight="700" text-anchor="start" style="fill:#17344d">Notification processing</text>
+<text x="318" y="398" font-size="21" font-weight="700" text-anchor="start" style="fill:#17344d">and delivery eligibility</text>
+<text x="318" y="428" font-size="18" font-weight="400" text-anchor="start" style="fill:#506373">Available information</text>
+</g>
+<g id="notification-interface">
+<rect x="650" y="315" width="330" height="132" rx="12" fill="#eaf2f8" stroke="#96afc2" stroke-width="1.5" />
+<text x="668" y="340" font-size="15" font-weight="700" text-anchor="start" style="fill:#17344d">OBSERVED E5  |  CONTEXT E4</text>
+<text x="668" y="373" font-size="22" font-weight="700" text-anchor="start" style="fill:#17344d">Notification dropdown</text>
+<text x="668" y="403" font-size="18" font-weight="400" text-anchor="start" style="fill:#172b3a">Available does not mean prominent</text>
+<text x="668" y="428" font-size="17" font-weight="400" text-anchor="start" style="fill:#506373">Redacted DEL01 crop: E5</text>
+</g>
+<path d="M 570 381 L 648 381" class="context-flow" />
+<rect x="300" y="467" width="680" height="44" rx="8" fill="#fff7e8" stroke="#d2b77f" stroke-width="1.5" />
+<text x="320" y="495" font-size="19" font-weight="600" text-anchor="start" style="fill:#805718">UNVERIFIED: actual York ordering and viewport capacity</text>
+</g>
+<g id="information-sources">
+<rect x="30" y="315" width="220" height="132" rx="12" fill="white" stroke="#aebfcb" stroke-width="1.5" />
+<text x="48" y="340" font-size="15" font-weight="700" text-anchor="start" style="fill:#506373">SOURCES  |  E1, E4</text>
+<text x="48" y="372" font-size="22" font-weight="700" text-anchor="start" style="fill:#17344d">Instructors and</text>
+<text x="48" y="399" font-size="22" font-weight="700" text-anchor="start" style="fill:#17344d">course staff</text>
+<text x="48" y="429" font-size="16" font-weight="400" text-anchor="start" style="fill:#506373">Activities; communication</text>
+</g>
+<path d="M 250 381 L 298 381" class="context-flow" />
+<g id="students">
+<rect x="1090" y="315" width="320" height="132" rx="12" fill="white" stroke="#aebfcb" stroke-width="1.5" />
+<text x="1110" y="340" font-size="15" font-weight="700" text-anchor="start" style="fill:#506373">DOCUMENTED ROLE  |  E1, E4</text>
+<text x="1110" y="376" font-size="25" font-weight="700" text-anchor="start" style="fill:#17344d">Students</text>
+<text x="1110" y="406" font-size="19" font-weight="400" text-anchor="start" style="fill:#172b3a">Recipients of course information</text>
+<text x="1110" y="429" font-size="18" font-weight="400" text-anchor="start" style="fill:#506373">Opportunity to encounter</text>
+</g>
+<path d="M 980 381 L 1088 381" class="context-flow" />
+<text x="1035" y="366" font-size="16" font-weight="400" text-anchor="middle" style="fill:#506373">presented</text>
+<path d="M 1250 447 L 1250 477" class="context-flow" />
+<g id="attention-outside-boundary">
+<rect x="1090" y="479" width="320" height="103" rx="12" fill="#fafafa" stroke="#aeb7be" stroke-width="1.5" stroke-dasharray="6 4" />
+<text x="1110" y="506" font-size="16" font-weight="700" text-anchor="start" style="fill:#506373">INFERRED / UNOBSERVED</text>
+<text x="1110" y="535" font-size="19" font-weight="700" text-anchor="start" style="fill:#17344d">Potential attention and action</text>
+<text x="1110" y="561" font-size="18" font-weight="400" text-anchor="start" style="fill:#506373">Outside model; not measured</text>
+</g>
+<path d="M 630 532 L 630 608" class="model-flow" />
+<text x="40" y="568" font-size="22" font-weight="700" text-anchor="start" style="fill:#65448c">Selective representation of list placement</text>
+<text x="40" y="593" font-size="18" font-weight="400" text-anchor="start" style="fill:#65448c">Hypothetical policies - not verified system internals</text>
+<g id="computational-boundary">
+<rect x="30" y="612" width="1380" height="323" rx="16" fill="#f5f0fb" stroke="#65448c" stroke-width="2.5" />
+<text x="53" y="649" font-size="25" font-weight="700" text-anchor="start" style="fill:#65448c">COMPUTATIONAL BOUNDARY</text>
+<text x="1385" y="647" font-size="17" font-weight="700" text-anchor="end" style="fill:#65448c">SYNTHETIC INPUTS AND RULES  |  E6-E7</text>
+<text x="53" y="678" font-size="20" font-weight="400" text-anchor="start" style="fill:#506373">Same 20 records and timeline in every condition; no student agents</text>
+<g id="synthetic-inputs">
+<rect x="55" y="710" width="200" height="172" rx="10" fill="white" stroke="#b7a7cb" stroke-width="1.5" />
+<text x="70" y="735" font-size="15" font-weight="700" text-anchor="start" style="fill:#65448c">SYNTHETIC  |  E6</text>
+<text x="70" y="767" font-size="22" font-weight="700" text-anchor="start" style="fill:#17344d">20 notification</text>
+<text x="70" y="794" font-size="22" font-weight="700" text-anchor="start" style="fill:#17344d">records</text>
+<text x="70" y="830" font-size="18" font-weight="400" text-anchor="start" style="fill:#506373">Posting ages</text>
+<text x="70" y="855" font-size="18" font-weight="400" text-anchor="start" style="fill:#506373">Optional deadlines</text>
+</g>
+<g id="simulated-time">
+<rect x="285" y="710" width="235" height="172" rx="10" fill="white" stroke="#b7a7cb" stroke-width="1.5" />
+<text x="300" y="735" font-size="15" font-weight="700" text-anchor="start" style="fill:#65448c">SYNTHETIC  |  E7</text>
+<text x="300" y="766" font-size="22" font-weight="700" text-anchor="start" style="fill:#17344d">Time and urgency</text>
+<text x="300" y="794" font-size="19" font-weight="400" text-anchor="start" style="fill:#172b3a" aria-label="7 snapshots: 0–36 hours, every 6 hours"><tspan x="300" dy="0">7 snapshots: 0–36</tspan><tspan x="300" dy="24">hours, every 6 hours</tspan></text>
+<text x="300" y="848" font-size="19" font-weight="400" text-anchor="start" style="fill:#172b3a">Urgent if time left is</text>
+<text x="300" y="872" font-size="19" font-weight="400" text-anchor="start" style="fill:#172b3a">&gt;0 and ≤72 hours</text>
+</g>
+<g id="hypothetical-policies">
+<rect x="550" y="710" width="285" height="172" rx="10" fill="white" stroke="#b7a7cb" stroke-width="1.5" />
+<text x="565" y="735" font-size="15" font-weight="700" text-anchor="start" style="fill:#65448c">HYPOTHETICAL  |  E7</text>
+<text x="565" y="766" font-size="22" font-weight="700" text-anchor="start" style="fill:#17344d">Ordering conditions</text>
+<text x="565" y="798" font-size="20" font-weight="400" text-anchor="start" style="fill:#172b3a">Baseline: recency</text>
+<text x="565" y="824" font-size="20" font-weight="400" text-anchor="start" style="fill:#172b3a">Primary: hybrid, 2 slots</text>
+<text x="565" y="850" font-size="20" font-weight="400" text-anchor="start" style="fill:#172b3a">Sensitivity: 1 or 3 slots</text>
+</g>
+<g id="measurement-window">
+<rect x="865" y="710" width="200" height="172" rx="10" fill="white" stroke="#b7a7cb" stroke-width="1.5" />
+<text x="880" y="735" font-size="15" font-weight="700" text-anchor="start" style="fill:#65448c">SYNTHETIC  |  E7</text>
+<text x="880" y="766" font-size="22" font-weight="700" text-anchor="start" style="fill:#17344d">First five</text>
+<text x="880" y="793" font-size="22" font-weight="700" text-anchor="start" style="fill:#17344d">positions</text>
+<text x="880" y="831" font-size="17" font-weight="400" text-anchor="start" style="fill:#506373">Count / coverage</text>
+<text x="880" y="856" font-size="17" font-weight="400" text-anchor="start" style="fill:#506373">Mean rank: all urgent</text>
+</g>
+<g id="computed-outputs">
+<rect x="1095" y="710" width="290" height="172" rx="10" fill="#e9f5f2" stroke="#21645d" stroke-width="1.5" />
+<text x="1110" y="735" font-size="15" font-weight="700" text-anchor="start" style="fill:#21645d">COMPUTED  |  E10</text>
+<text x="1110" y="769" font-size="20" font-weight="400" text-anchor="start" style="fill:#172b3a">Urgent visibility</text>
+<text x="1110" y="796" font-size="20" font-weight="400" text-anchor="start" style="fill:#172b3a">Urgent coverage</text>
+<text x="1110" y="823" font-size="20" font-weight="400" text-anchor="start" style="fill:#172b3a">Average urgent rank</text>
+<text x="1110" y="850" font-size="20" font-weight="400" text-anchor="start" style="fill:#172b3a">Recent nonurgent visibility</text>
+</g>
+<path d="M 255 796 L 283 796" class="model-flow" />
+<path d="M 520 796 L 548 796" class="model-flow" />
+<path d="M 835 796 L 863 796" class="model-flow" />
+<path d="M 1065 796 L 1093 796" class="model-flow" />
+<text x="53" y="911" font-size="19" font-weight="400" text-anchor="start" style="fill:#65448c">Hybrid promotes the newest urgent items; the remainder stays in recency order. Position is not attention.</text>
+</g>
+<text x="32" y="967" font-size="15" font-weight="700" text-anchor="start" style="fill:#506373">READING THE MAP</text>
+<rect x="32" y="981" width="16" height="16" rx="3" fill="white" stroke="#17344d" stroke-width="2" />
+<text x="58" y="995" font-size="17" font-weight="400" text-anchor="start" style="fill:#17344d">Documented: E1-E4</text>
+<rect x="485" y="981" width="16" height="16" rx="3" fill="white" stroke="#506373" stroke-width="2" stroke-dasharray="4 3" />
+<text x="511" y="995" font-size="17" font-weight="400" text-anchor="start" style="fill:#506373">Inferred: dashed context flows</text>
+<rect x="970" y="981" width="16" height="16" rx="3" fill="white" stroke="#65448c" stroke-width="2" />
+<text x="996" y="995" font-size="17" font-weight="400" text-anchor="start" style="fill:#65448c">Synthetic: E6-E7 inset</text>
+<rect x="32" y="1016" width="16" height="16" rx="3" fill="white" stroke="#506373" stroke-width="2" stroke-dasharray="4 3" />
+<text x="58" y="1030" font-size="17" font-weight="400" text-anchor="start" style="fill:#506373">Observed: E5 redacted DEL01 crop</text>
+<rect x="485" y="1016" width="16" height="16" rx="3" fill="white" stroke="#805718" stroke-width="2" />
+<text x="511" y="1030" font-size="17" font-weight="400" text-anchor="start" style="fill:#805718">Unverified: York ordering / capacity</text>
+<rect x="970" y="1016" width="16" height="16" rx="3" fill="white" stroke="#21645d" stroke-width="2" />
+<text x="996" y="1030" font-size="17" font-weight="400" text-anchor="start" style="fill:#21645d">Computed: model outputs, E10</text>
+<text x="32" y="1066" font-size="17" font-weight="400" text-anchor="start" style="fill:#506373">Context arrows are schematic relations; purple arrows describe only the model. No screenshot is reproduced.</text>
+</svg>

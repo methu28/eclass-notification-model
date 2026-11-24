@@ -1,6 +1,6 @@
-# eClass Notification Visibility: DEL02 Mesa Prototype
+# eClass Notification Visibility: DEL03 Final Project
 
-**Status:** Runnable DEL02 development prototype using genuine Mesa. The preserved original example and default simulation outputs are included and tracked. Local changes still require review before submission.
+**Status:** DEL03 is the final project version currently being prepared for publication; it is not yet published. The previously published [DEL02 Release](https://github.com/methu28/eclass-notification-model/releases/tag/DEL02), its annotated `DEL02` tag, original Mesa example and default simulation outputs remain preserved. The sections below describe the original two-condition prototype, followed by the DEL03 comparison and final documentation.
 
 ## Research question and scope
 
@@ -113,6 +113,28 @@ Implemented: recency and hybrid ordering, volume 20, time-dependent urgency, and
 
 See `docs/model_design.md`, `docs/validation_status.md`, and `docs/del02_submission_checklist.md`.
 
+## DEL03: four-condition reserved-slot comparison
+
+DEL03 reuses the existing Mesa model to compare recency with hybrid reservations of **1, 2, and 3**. The same 20 synthetic notifications, 72-hour urgency threshold, five visible positions, and six six-hour steps are retained. The DEL02 runner and original outputs remain unchanged.
+
+From the repository root, after installing `requirements.txt` using the setup instructions above, use the environment's Python. For Windows PowerShell:
+```powershell
+.\.venv\Scripts\python.exe -m src.project_model.run_del03 --output-dir .venv/results/del03_reproduction
+.\.venv\Scripts\python.exe -m pytest -q
+```
+
+For macOS/Linux:
+```bash
+.venv/bin/python -m src.project_model.run_del03 --output-dir .venv/results/del03_reproduction
+.venv/bin/python -m pytest -q
+```
+
+The verified raw model/agent CSVs, labeled long/wide/summary comparison tables, six PNG figures, and metadata are saved separately under `outputs/del03/`. The commands above reproduce them in a fresh ignored directory without overwriting saved results. The runner refuses a nonempty output directory; for each repeat run, choose another new directory, such as `--output-dir .venv/results/del03_reproduction_2`.
+
+See [the DEL03 results and verification report](docs/del03_results.md) for exact numbers, metric definitions, commands, file inventory, environment notes, and limitations. The DEL03 experiment adds no urgency-only policy or additional notification volumes. The two-policy descriptions and results above refer to the preserved DEL02 experiment.
+
+The [final dossier draft](docs/del03_final_dossier_draft.md) incorporates the [evidence package](docs/evidence/README.md) and completed [ecosystem map](docs/figures/eclass_ecosystem_map_caption.md). These additions document the final inquiry and its limits; they do not change the original model, dataset or DEL02 results.
+
 ## Collaboration, AI assistance, and submission
 
-The source code and synthetic dataset were created with AI assistance. Partners must review the implementation, document their own genuine contributions, confirm repository write access, and complete individual Accountability Records. The DEL02 report, annotated submission tag, and GitHub release remain submission tasks; this local verification does not create or publish them.
+The source code and synthetic dataset were created with AI assistance. Partners must review the implementation, document their own genuine contributions, confirm repository write access, and complete individual Accountability Records. DEL02 was previously published, and its annotated tag and release remain preserved. The final DEL03 commit, CI verification, annotated `DEL03` tag and `DEL03 Release` remain publication steps requiring approval; no DEL03 release is claimed here.

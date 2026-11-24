@@ -6,3 +6,6 @@ __pycache__/
 .env
 .idea/
 .vscode/
+
+# Unredacted E5 is private; only the publication-safe derivative belongs in Git.
+/docs/evidence/DEL01_eClass_notification_dropdown_E5_cropped.png

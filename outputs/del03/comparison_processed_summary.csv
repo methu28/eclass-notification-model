@@ -1,0 +1,5 @@
+condition,condition_label,snapshots,urgent_top5_count_initial,urgent_top5_count_final,urgent_top5_count_snapshot_mean,urgent_top5_share_initial,urgent_top5_share_final,urgent_top5_share_snapshot_mean,average_urgent_rank_initial,average_urgent_rank_final,average_urgent_rank_snapshot_mean,recent_nonurgent_top5_initial,recent_nonurgent_top5_final,recent_nonurgent_top5_snapshot_mean,initial_recent_nonurgent_top5_initial,initial_recent_nonurgent_top5_final,initial_recent_nonurgent_top5_snapshot_mean
+recency,Recency (baseline),7,0,0,0.0,0.0,0.0,0.0,17.5,15.625,15.973299319727891,5,0,2.7142857142857144,5,5,5.0
+hybrid_1,Hybrid (1 reserved),7,1,1,1.0,0.25,0.125,0.16207482993197278,14.25,14.375,14.245408163265306,4,0,2.2857142857142856,4,4,4.0
+hybrid_2,Hybrid (2 reserved),7,2,2,2.0,0.5,0.25,0.32414965986394556,10.5,13.0,12.291156462585034,3,0,1.7142857142857142,3,3,3.0
+hybrid_3,Hybrid (3 reserved),7,3,3,3.0,0.75,0.375,0.48622448979591837,6.5,11.625,10.24404761904762,2,0,1.1428571428571428,2,2,2.0

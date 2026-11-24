@@ -1,0 +1,45 @@
+{
+  "python_version": "3.12.14",
+  "mesa_version": "3.5.2",
+  "pandas_version": "2.3.3",
+  "matplotlib_version": "3.11.2",
+  "input_file": "data/notifications.csv",
+  "input_sha256": "4ca083de76bc24d5bc6a69bfe3647ca88f1652c721c18deaf46d560d21df219d",
+  "initial_notifications": 20,
+  "initial_urgent": 4,
+  "urgency_threshold_hours": 72,
+  "visible_positions": 5,
+  "recent_window_hours": 24,
+  "steps": 6,
+  "hours_per_step": 6,
+  "seed": 42,
+  "conditions": [
+    {
+      "condition": "recency",
+      "label": "Recency (baseline)",
+      "policy": "recency",
+      "reserved_urgent_positions": 0
+    },
+    {
+      "condition": "hybrid_1",
+      "label": "Hybrid (1 reserved)",
+      "policy": "hybrid",
+      "reserved_urgent_positions": 1
+    },
+    {
+      "condition": "hybrid_2",
+      "label": "Hybrid (2 reserved)",
+      "policy": "hybrid",
+      "reserved_urgent_positions": 2
+    },
+    {
+      "condition": "hybrid_3",
+      "label": "Hybrid (3 reserved)",
+      "policy": "hybrid",
+      "reserved_urgent_positions": 3
+    }
+  ],
+  "same_input_and_time_states_verified": true,
+  "summary_mean_definition": "Unweighted mean of recorded snapshots including step 0; not independent replications or a continuous-time average.",
+  "interpretation_limit": "One deterministic synthetic scenario; visibility is list position, not student attention or actual eClass behavior."
+}

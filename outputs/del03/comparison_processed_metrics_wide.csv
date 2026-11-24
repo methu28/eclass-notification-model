@@ -1,0 +1,8 @@
+step,elapsed_hours,urgent_total,recency_urgent_top5_count,recency_urgent_top5_share,recency_average_urgent_rank,recency_recent_nonurgent_top5,recency_initial_recent_nonurgent_top5,hybrid_1_urgent_top5_count,hybrid_1_urgent_top5_share,hybrid_1_average_urgent_rank,hybrid_1_recent_nonurgent_top5,hybrid_1_initial_recent_nonurgent_top5,hybrid_2_urgent_top5_count,hybrid_2_urgent_top5_share,hybrid_2_average_urgent_rank,hybrid_2_recent_nonurgent_top5,hybrid_2_initial_recent_nonurgent_top5,hybrid_3_urgent_top5_count,hybrid_3_urgent_top5_share,hybrid_3_average_urgent_rank,hybrid_3_recent_nonurgent_top5,hybrid_3_initial_recent_nonurgent_top5
+0,0,4,0,0.0,17.5,5,5,1,0.25,14.25,4,4,2,0.5,10.5,3,3,3,0.75,6.5,2,2
+1,6,5,0,0.0,16.2,5,5,1,0.2,14.2,4,4,2,0.4,11.8,3,3,3,0.6,9.0,2,2
+2,12,6,0,0.0,15.666666666666666,5,5,1,0.16666666666666666,14.0,4,4,2,0.3333333333333333,12.166666666666666,3,3,3,0.5,10.333333333333334,2,2
+3,18,7,0,0.0,15.571428571428571,4,5,1,0.14285714285714285,14.142857142857142,4,4,2,0.2857142857142857,12.571428571428571,3,3,3,0.42857142857142855,11.0,2,2
+4,24,8,0,0.0,15.625,0,5,1,0.125,14.375,0,4,2,0.25,13.0,0,3,3,0.375,11.625,0,2
+5,30,8,0,0.0,15.625,0,5,1,0.125,14.375,0,4,2,0.25,13.0,0,3,3,0.375,11.625,0,2
+6,36,8,0,0.0,15.625,0,5,1,0.125,14.375,0,4,2,0.25,13.0,0,3,3,0.375,11.625,0,2
